@@ -117,13 +117,13 @@ public class GameMain {
 
 		switch (monsterChoice) {
 		case 1:
-			return new Monster("너구리", 300, 1, 10, 5, 20, 15);
+			return new Monster("너구리", 300, 1, 10, 5, 20, 30);
 		case 2:
-			return new Monster("살쾡이", 1500, 5, 20, 10, 50, 30);
+			return new Monster("살쾡이", 1500, 5, 20, 10, 50, 60);
 		case 3:
-			return new Monster("들개", 3000, 10, 30, 15, 80, 50);
+			return new Monster("들개", 3000, 10, 30, 15, 80, 90);
 		case 4:
-			return new Monster("멧돼지", 10000, 15, 40, 20, 100, 80);
+			return new Monster("멧돼지", 10000, 15, 40, 20, 100, 120);
 		default:
 			System.out.println("올바른 몬스터를 선택하세요.");
 			return null;
